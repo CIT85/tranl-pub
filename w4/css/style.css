@@ -7,7 +7,7 @@ html {
 
 /* Nav styling */
 nav {
-    background-color: #FCC8B2;
+    background-color: #BFABCB;
     padding: 0;
     margin: 0;
 }
@@ -90,3 +90,38 @@ h3, h1, h2 {
   background-color: #E2B4BD;
 }
 /* Menu */
+
+/*Hex Color Pallete */
+.hex-pallete {
+  border: solid;
+  margin: 0;
+  height: 200px;
+  color: #333; /* Set text color */
+}
+
+
+.color1 {
+  background-color: #EAC8CA;
+}
+
+.color2 {
+  background: #F2D5F8;
+}
+
+.color3 {
+  background: #E2B4BD;
+}
+
+.color4 {
+  background: #BFABCB;
+}
+
+/*Hex Color Pallete */
+
+/* Styling for footer */
+footer {
+  text-align: center; 
+  background-color: #E2B4BD; 
+  padding: 1px; 
+  margin: 1em;
+}
