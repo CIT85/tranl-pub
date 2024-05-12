@@ -1,0 +1,357 @@
+/*Main html styling elements */
+html {
+    font-size: 18px;
+    font-family:cursive;
+}
+/*Main html styling elements */
+
+/* Styling Links */
+a:visited {
+  color: #FF0000;
+}
+
+a:active {
+  color: green;
+}
+/* Styling Links */
+
+
+/* Styling Lists */
+li {
+  list-style-type:upper-roman;
+  position: relative;
+}
+
+li a:hover,
+li a:focus {
+  background: #D8A7B1;
+  color: rgb(143, 143, 230);
+  cursor: pointer;
+}
+/* Styling Lists */
+
+
+/* Nav styling */
+nav {
+    background-color: #FAE8E0;
+    padding: 0;
+    margin: 0;
+}
+/* Nav styling */
+
+/* Table styles for attractions */
+table {
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 5px solid #E2B4BD; 
+    padding-right: 5px;
+  }
+  
+  th,
+  td {
+    padding: 12px 15px;
+    text-align: left;
+    background-color: #B6E2D3;
+  }
+  
+  th {
+    background-color: #EF7C8E;
+    color: black;
+  }
+  
+  tr {
+    background-color: #F2D5F8;
+  }
+  
+
+  tr:hover {
+    background-color: #D8A7B1;
+    color: #EF7C8E;
+  }
+/* Table styles for attractions */
+  
+/*Nav bar horizontal */
+.horizontal-nav {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none; 
+  padding: 0;
+}
+  
+  .horizontal-nav li {
+    margin: 20px; 
+  }
+
+/*Nav bar horizontal */
+
+/* Body Styling */
+body {
+  background: #FAE8E0;
+}
+/* Body Styling */
+
+/*Menu Nav */
+
+.menu-bar li {
+  margin: 3.5px; 
+}
+
+.menu-bar li a {
+  text-decoration: none;
+  color: #333;
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: #B6E2D3;
+}
+
+.menu-bar li a:hover {
+  background-color: #EF7C8E;
+  color: #fff;
+}
+
+/*Menu Nav */
+
+/* Menu */
+h3, h1, h2 {
+  text-align: center;
+  background-color: #D8A7B1;
+}
+/* Menu */
+
+/*Hex Color Pallete */
+.hex-pallete {
+  border: solid #333;
+  margin: 0;
+  height: 200px;
+  color: #333; 
+}
+
+.color1 {
+  background-color: #EF7C8E;
+}
+
+.color2 {
+  background: #FAE8E0;
+}
+
+.color3 {
+  background: #B6E2D3;
+}
+
+.color4 {
+  background: #D8A7B1;
+}
+/*Hex Color Pallete */
+
+/* Styling for footer */
+footer {
+  text-align: center; 
+  background-color: #E2B4BD; 
+  padding: 20px; 
+  margin: 1em;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+  color: #EF7C8E;
+}
+/* Styling for footer */
+
+/* Header styling */
+header {
+  background: linear-gradient(to bottom, #EF7C8E, #B6E2D3);
+  padding: 20px;
+  text-align: center;
+}
+/* Header styling */
+
+/* Starting Figure styling */
+figure {
+  margin: 20px auto;
+  text-align: center;
+}
+
+figcaption {
+  font-style: italic;
+  margin-top: 10px;
+}
+/* Finished Figure styling */
+
+/* Starting Updated Menu Styling */
+.horizontal-nav li a:hover,
+.menu-bar li a {
+  text-decoration: underline;
+  color: #333;
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: #B6E2D3;
+}
+/* Finished Updated Menu Styling */
+
+/* Starting Image styling */
+img {
+  border-radius: 50%;
+  border: 5px solid #E2B4BD;
+  display: block;
+  margin: 0 auto;
+}
+/* Finished Image styling */
+
+/* Starting CSS for section flex-container */
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction:column;
+}
+/* Finished CSS for section flex-container */
+
+/* Starting CSS for styling the box container */
+.box {
+  list-style-type: none;
+  padding: 10px 20px;
+  background-color: #B6E2D3;
+  border-radius: 5px;
+  margin-right: 10px;
+  position:sticky;
+}
+
+.box:hover {
+  background-color: #EF7C8E;
+}
+
+.intro {
+  background-color: transparent;
+}
+/* Finished CSS for styling the box container */
+
+/* Starting CSS for grid-layout" */
+#grid-layout {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive grid with minimum item width of 200px */
+  gap: 20px; /* Gap between grid items */
+  margin: 20px auto;
+}
+/* Finished CSS for grid-layout" */
+
+/* Starting CSS for styling the grid-items */
+.grid-item {
+  background-color: #D8A7B1; 
+  padding: 20px;
+  border-radius: 10px; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  transition: transform 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.grid-item:hover {
+  transform: translateY(-5px); /* Move up slightly on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+}
+
+/* Finished CSS for styling the grid-items */
+
+
+/* Media Queries */
+.container {
+  max-width: 1536px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+/*Starting Media queries for mobile screen*/
+@media (min-width: 475px) {
+  .container {
+    width: 100%;
+  }
+  h1, h2, h3 {
+    color:red;
+  }
+  body {
+    font-size: 16px;
+  }
+  nav {
+    padding: 10px;
+  }
+  .grid-item {
+    padding: 15px; 
+  }
+}
+/*Finished Media queries for mobile screen*/
+
+/*Starting Media queries for Ipads, Tablets*/
+@media (min-width: 640px) {
+  .container {
+    max-width: 475px;
+  }
+  h1, h2, h3 {
+    color: green;
+  }
+  nav {
+    background-color: #D8A7B1;
+  }
+  .intro {
+    background-color: #B6E2D3; 
+  }
+}
+/* Finished Media queries for Ipads, Tablets*/
+
+/*Starting Media queries for Small screens, laptop*/
+@media (min-width: 768px) {
+  .container {
+    max-width: 640px;
+  }
+  h1, h2, h3 {
+    color:blue;
+  }
+  header {
+    padding: 30px;
+  }
+  .box {
+    padding: 15px 25px;
+  }
+}
+/*Finished media queries for Small screens, laptop*/
+
+/*Starting Media queries for Desktops, large screens*/
+@media (min-width: 1024px) {
+  .container {
+    max-width: 768px;
+  }
+  h1, h2, h3 {
+    color:yellow;
+  }
+  footer {
+    padding: 30px;
+    background-color: #B6E2D3;
+  }
+}
+/*Finished Media queries for Desktops, large screens*/
+
+/*Starting Media queries for Extra Large screens, TVs*/
+@media (max-width: 1280px) {
+  .container {
+    max-width: 1024px;
+  }
+  h1, h2, h3 {
+    color: purple;
+  }
+  body {
+    background-color: #FAE8E0;
+  }
+  footer {
+    padding: 30px;
+    background-color: #EF7C8E;
+  }
+}
+/*Finished Media queries for Extra Large screens, TVs*/
+
+/* Media Queries */
+
