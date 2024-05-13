@@ -208,8 +208,9 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-direction:column;
+  flex-direction: row;
 }
+
 /* Finished CSS for section flex-container */
 
 /* Starting CSS for styling the box container */
@@ -326,7 +327,7 @@ img {
     max-width: 768px;
   }
   h1, h2, h3 {
-    color:yellow;
+    color: #FF0000;
   }
   footer {
     padding: 30px;
@@ -354,4 +355,6 @@ img {
 /*Finished Media queries for Extra Large screens, TVs*/
 
 /* Media Queries */
+
+
 
