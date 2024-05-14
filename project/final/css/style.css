@@ -259,97 +259,55 @@ img {
 
 
 /* Media Queries */
-.container {
-  max-width: 1536px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-}
 
 /*Starting Media queries for mobile screen*/
-@media (min-width: 475px) {
-  .container {
-    width: 100%;
-  }
-  h1, h2, h3 {
-    color:red;
-  }
+@media (max-width: 479px) {
   body {
-    font-size: 16px;
-  }
-  nav {
-    padding: 10px;
-  }
-  .grid-item {
-    padding: 15px; 
+    background-color: red;
   }
 }
 /*Finished Media queries for mobile screen*/
 
 /*Starting Media queries for Ipads, Tablets*/
-@media (min-width: 640px) {
+@media (min-width: 480px) and (max-width: 767px) {
   .container {
     max-width: 475px;
   }
-  h1, h2, h3 {
-    color: green;
-  }
-  nav {
-    background-color: #D8A7B1;
-  }
-  .intro {
-    background-color: #B6E2D3; 
+  body {
+    background-color: blue;
   }
 }
 /* Finished Media queries for Ipads, Tablets*/
 
 /*Starting Media queries for Small screens, laptop*/
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 1023px) {
   .container {
     max-width: 640px;
   }
-  h1, h2, h3 {
-    color:blue;
-  }
-  header {
-    padding: 30px;
-  }
-  .box {
-    padding: 15px 25px;
+  body {
+    background-color: yellow;
   }
 }
 /*Finished media queries for Small screens, laptop*/
 
 /*Starting Media queries for Desktops, large screens*/
-@media (min-width: 1024px) {
+@media (min-width: 1024px) and (max-width: 1279px) {
   .container {
     max-width: 768px;
   }
-  h1, h2, h3 {
-    color: #FF0000;
-  }
-  footer {
-    padding: 30px;
-    background-color: #B6E2D3;
+  body {
+    background-color: green;
   }
 }
 /*Finished Media queries for Desktops, large screens*/
 
 /*Starting Media queries for Extra Large screens, TVs*/
-@media (max-width: 1280px) {
+@media (min-width: 1280px) {
   .container {
     max-width: 1024px;
   }
-  h1, h2, h3 {
-    color: purple;
-  }
   body {
-    background-color: #FAE8E0;
-  }
-  footer {
-    padding: 30px;
-    background-color: #EF7C8E;
+    background-color: purple;
   }
 }
 /*Finished Media queries for Extra Large screens, TVs*/
