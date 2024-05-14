@@ -208,7 +208,7 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 /* Finished CSS for section flex-container */
@@ -283,6 +283,12 @@ img {
     max-width: fit-content;
     height: auto;
   }
+  .flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+  }
 }
 
 
@@ -297,6 +303,12 @@ img {
   img {
     max-width: fit-content;
     height: auto;
+  }
+  p {
+    display: flex;
+    justify-content: space-between;
+    align-items:normal;
+    flex-direction: row;
   }
 }
 
@@ -314,6 +326,19 @@ img {
     max-width: fit-content;
     height: auto;
   }
+  p {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
+  .flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+  }
+
 }
 
 
@@ -330,6 +355,13 @@ img {
     max-width: fit-content;
     height: auto;
   }
+  .flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
+  
 }
 /*Finished Media queries for Extra Large screens, TVs*/
 
