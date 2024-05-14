@@ -257,57 +257,78 @@ img {
 
 /* Finished CSS for styling the grid-items */
 
-
 /* Media Queries */
 
-/*Starting Media queries for mobile screen*/
+/*XS*/
 @media (max-width: 479px) {
   body {
-    background-color: red;
+    background-color: #A5D8FF;
+  }
+  img {
+    max-width: fit-content;
+    height: auto;
   }
 }
-/*Finished Media queries for mobile screen*/
 
-/*Starting Media queries for Ipads, Tablets*/
+
+/*Small*/
 @media (min-width: 480px) and (max-width: 767px) {
   .container {
     max-width: 475px;
   }
   body {
-    background-color: blue;
+    background-color: #AFD0D6;
+  }
+  img {
+    max-width: fit-content;
+    height: auto;
   }
 }
-/* Finished Media queries for Ipads, Tablets*/
 
-/*Starting Media queries for Small screens, laptop*/
+
+/*Medium*/
 @media (min-width: 768px) and (max-width: 1023px) {
   .container {
     max-width: 640px;
   }
   body {
-    background-color: yellow;
+    background-color: #BFB6BB;
+  }
+  img {
+    max-width: fit-content;
+    height: auto;
   }
 }
-/*Finished media queries for Small screens, laptop*/
 
-/*Starting Media queries for Desktops, large screens*/
+
+/*Large*/
 @media (min-width: 1024px) and (max-width: 1279px) {
   .container {
     max-width: 768px;
   }
   body {
-    background-color: green;
+    background-color: #C49799;
+    font-size: 18px;
+  }
+  img {
+    max-width: fit-content;
+    height: auto;
   }
 }
-/*Finished Media queries for Desktops, large screens*/
 
-/*Starting Media queries for Extra Large screens, TVs*/
+
+/*XL*/
 @media (min-width: 1280px) {
   .container {
     max-width: 1024px;
   }
   body {
-    background-color: purple;
+    background-color: #B6E2D3;
+    font-size: 20px;
+  }
+  img {
+    max-width: fit-content;
+    height: auto;
   }
 }
 /*Finished Media queries for Extra Large screens, TVs*/
